@@ -1,0 +1,50 @@
+.rounded-circle {
+    margin-left: auto;
+    margin-right: 0;
+}
+/* Gaya untuk mengubah warna panah navigasi menjadi abu-abu */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #808080; /* Warna abu-abu */
+    border: 1px solid #808080; /* Warna border abu-abu */
+}
+
+/* Gaya untuk mengubah warna panah navigasi ke warna putih saat dihover */
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: #fff; /* Warna putih */
+    border: 1px solid #fff; /* Warna border putih */
+}
+
+.carousel-item img {
+    width: 60%; /* Gambar akan memiliki lebar 50% dari container */
+    height: auto; /* Memastikan gambar tetap proporsional */
+    max-height: 500px; /* Mengatur tinggi maksimum gambar */
+    object-fit: cover; /* Menyembunyikan potongan gambar yang tidak muat */
+    margin: 0 auto; /* Menengahkan gambar di dalam container */
+    padding: 15px; /* Menambahkan padding pada gambar */
+}
+
+/* Mengatur tinggi Carousel agar tidak berubah saat slide */
+.carousel {
+    max-height: 530px; /* Sesuaikan dengan tinggi maksimum gambar + padding */
+    overflow: hidden; /* Menyembunyikan gambar yang lebih tinggi dari container */
+}
+
+/* Menyesuaikan lebar carousel agar sesuai dengan gambar */
+.carousel-inner {
+    width: 60%;
+    margin: 0 auto;
+    height: 530px;
+}
+
+/* Gaya untuk mengubah warna dan menonaktifkan garis bawah pada tautan di dalam footer */
+footer a {
+    color: #fff; /* Ganti dengan warna teks yang diinginkan */
+    text-decoration: none; /* Menghilangkan garis bawah */
+}
+
+footer a:hover {
+    color: #fff; /* Ganti dengan warna teks yang diinginkan saat dihover */
+    text-decoration: none; /* Tetap tanpa garis bawah saat dihover */
+}
